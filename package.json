@@ -1,0 +1,23 @@
+{
+  "name": "c4.cloud",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "sass": "^1.77.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "@types/handlebars": "^4.1.0",
+    "axios": "^1.7.2",
+    "handlebars": "^4.7.8",
+    "simpleweblite": "^1.0.0"
+  }
+}
